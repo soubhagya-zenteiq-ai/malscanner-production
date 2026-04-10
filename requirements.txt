@@ -1,0 +1,12 @@
+python-magic
+pyclamd
+yara-python
+pdfid
+bleach
+frictionless
+vt-py
+zstandard
+pandas
+pyarrow
+python-dotenv
+PyYAML
