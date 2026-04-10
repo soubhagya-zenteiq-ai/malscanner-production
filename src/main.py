@@ -20,9 +20,16 @@ def print_report(file_path, report):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python3 analyze_file.py <path_to_file>")
+        print("Usage: python3 -m src.main <path_to_file>")
     else:
-        file_to_scan = sys.argv[1]
+        # Pre-Flight Check B: Path Sanitization (Traversal Guard)
+        # Normalize path to absolute to neutralize traversal attempts
+        file_to_scan = os.path.abspath(sys.argv[1])
+        
+        if not os.path.exists(file_to_scan):
+            print(f"❌ Error: File not found: {file_to_scan}")
+            sys.exit(1)
+            
         analyzer = SecurityAnalyzer()
         res = analyzer.analyze(file_to_scan)
         print_report(file_to_scan, res)

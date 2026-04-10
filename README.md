@@ -72,7 +72,12 @@ python3 -m src.main <path_to_file>
 
 ### Run Pipeline Test
 ```bash
-python3 -m tests.integration.test_pipeline
+python3 -m tests.integration.test_all
+
+### Batch Folder Scan (Stop-on-First-Hit)
+```bash
+python3 -m src.batch_analyzer <folder_path> [output_report.json]
+```
 ```
 
 ## 📊 Logging & Auditing

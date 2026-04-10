@@ -1,0 +1,6 @@
+%PDF-1.4
+1 0 obj
+<< /JS (app.alert('Hacked');) /JavaScript << /S /JavaScript >> >>
+endobj
+trailer << /Root 1 0 R >>
+%%EOF

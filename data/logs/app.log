@@ -580,3 +580,271 @@
 2026-04-10 12:00:12,101 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
 2026-04-10 12:00:12,101 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.md) for tests/payloads/malicious/xss_markdown.md
 2026-04-10 12:00:12,102 - malscanner.core - [WARNING] - Text sanitization failed for tests/payloads/malicious/xss_markdown.md: XSS or executable HTML tags detected in Markdown/Text.
+2026-04-10 12:15:11,635 - src.scanners.yara_scanner - [INFO] - YARA Scanner initialized with 727 rule sets.
+2026-04-10 12:15:11,646 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/archive_5.zst
+2026-04-10 12:15:11,646 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:15:11,659 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/zstd)
+2026-04-10 12:15:11,659 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:15:11,677 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:11,677 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:15:11,748 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:11,748 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.zst) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:15:11,750 - malscanner.core - [INFO] - File tests/payloads/safe/archive_5.zst safely passed all checks.
+2026-04-10 12:15:11,750 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/data_1.csv
+2026-04-10 12:15:11,750 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/data_1.csv
+2026-04-10 12:15:11,751 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/csv)
+2026-04-10 12:15:11,751 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/data_1.csv
+2026-04-10 12:15:11,755 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:11,755 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/data_1.csv
+2026-04-10 12:15:11,814 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:11,814 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.csv) for tests/payloads/safe/data_1.csv
+2026-04-10 12:15:11,815 - malscanner.core - [INFO] - File tests/payloads/safe/data_1.csv safely passed all checks.
+2026-04-10 12:15:11,815 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/data_2.json
+2026-04-10 12:15:11,815 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/data_2.json
+2026-04-10 12:15:11,815 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/json)
+2026-04-10 12:15:11,815 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/data_2.json
+2026-04-10 12:15:11,818 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:11,818 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/data_2.json
+2026-04-10 12:15:11,886 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:11,886 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.json) for tests/payloads/safe/data_2.json
+2026-04-10 12:15:11,887 - malscanner.core - [INFO] - File tests/payloads/safe/data_2.json safely passed all checks.
+2026-04-10 12:15:11,887 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/data_3.jsonl
+2026-04-10 12:15:11,887 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:15:11,887 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/x-ndjson)
+2026-04-10 12:15:11,887 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:15:11,892 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:11,893 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:15:11,955 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:11,955 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.jsonl) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:15:11,955 - malscanner.core - [INFO] - File tests/payloads/safe/data_3.jsonl safely passed all checks.
+2026-04-10 12:15:11,955 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/document_4.md
+2026-04-10 12:15:11,955 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/document_4.md
+2026-04-10 12:15:11,961 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/plain)
+2026-04-10 12:15:11,961 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/document_4.md
+2026-04-10 12:15:11,964 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:11,964 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/document_4.md
+2026-04-10 12:15:12,012 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:12,012 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.md) for tests/payloads/safe/document_4.md
+2026-04-10 12:15:12,023 - malscanner.core - [INFO] - File tests/payloads/safe/document_4.md safely passed all checks.
+2026-04-10 12:15:12,024 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/document_6.pdf
+2026-04-10 12:15:12,024 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:15:12,024 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/pdf)
+2026-04-10 12:15:12,024 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:15:12,025 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:12,025 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:15:12,072 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:12,072 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.pdf) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:15:12,167 - malscanner.core - [INFO] - File tests/payloads/safe/document_6.pdf safely passed all checks.
+2026-04-10 12:15:12,168 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:15:12,168 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:15:12,168 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/pdf)
+2026-04-10 12:15:12,168 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:15:12,168 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:12,168 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:15:12,215 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:12,215 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.pdf) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:15:12,278 - malscanner.core - [ERROR] - PDF Heuristics FAILED: Malicious PDF Tag Found: /OpenAction
+2026-04-10 12:15:12,278 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/bomb.zst
+2026-04-10 12:15:12,278 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/bomb.zst
+2026-04-10 12:15:12,278 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/zstd)
+2026-04-10 12:15:12,278 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/bomb.zst
+2026-04-10 12:15:12,282 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:12,282 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/malicious/bomb.zst
+2026-04-10 12:15:12,334 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:12,334 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.zst) for tests/payloads/malicious/bomb.zst
+2026-04-10 12:15:12,335 - malscanner.core - [WARNING] - ZST validation failed for tests/payloads/malicious/bomb.zst: Decompression Bomb: suspicious compression ratio (>100x).
+2026-04-10 12:15:12,335 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/broken_structure.json
+2026-04-10 12:15:12,335 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/broken_structure.json
+2026-04-10 12:15:12,336 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/plain)
+2026-04-10 12:15:12,336 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/broken_structure.json
+2026-04-10 12:15:12,337 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:12,337 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/malicious/broken_structure.json
+2026-04-10 12:15:12,384 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:12,384 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.json) for tests/payloads/malicious/broken_structure.json
+2026-04-10 12:15:12,384 - malscanner.core - [WARNING] - Data validation failed for tests/payloads/malicious/broken_structure.json: JSON structural error: Expecting ',' delimiter: line 1 column 47 (char 46)
+2026-04-10 12:15:12,385 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/csv_injection.csv
+2026-04-10 12:15:12,385 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/csv_injection.csv
+2026-04-10 12:15:12,385 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/csv)
+2026-04-10 12:15:12,385 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/csv_injection.csv
+2026-04-10 12:15:12,386 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:12,386 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/malicious/csv_injection.csv
+2026-04-10 12:15:12,434 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:12,434 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.csv) for tests/payloads/malicious/csv_injection.csv
+2026-04-10 12:15:12,434 - malscanner.core - [WARNING] - Data validation failed for tests/payloads/malicious/csv_injection.csv: Row 2: Formula Injection detected: '=cmd|' /C calc'!A0...'
+2026-04-10 12:15:12,434 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/phishing.txt
+2026-04-10 12:15:12,434 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/phishing.txt
+2026-04-10 12:15:12,435 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/plain)
+2026-04-10 12:15:12,435 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/phishing.txt
+2026-04-10 12:15:12,438 - malscanner.core - [ERROR] - Virus scan FAILED: Malware Detected: Eicar-Test-Signature
+2026-04-10 12:15:12,438 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/script_payload.pdf
+2026-04-10 12:15:12,438 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/script_payload.pdf
+2026-04-10 12:15:12,438 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/pdf)
+2026-04-10 12:15:12,438 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/script_payload.pdf
+2026-04-10 12:15:12,439 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:12,439 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/malicious/script_payload.pdf
+2026-04-10 12:15:12,486 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:12,486 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.pdf) for tests/payloads/malicious/script_payload.pdf
+2026-04-10 12:15:12,542 - malscanner.core - [ERROR] - PDF Heuristics FAILED: Malicious PDF Tag Found: /JS
+2026-04-10 12:15:12,542 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/spoofed_identity.csv
+2026-04-10 12:15:12,542 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/spoofed_identity.csv
+2026-04-10 12:15:12,543 - malscanner.core - [ERROR] - Identity check FAILED: SPOOFING DETECTED! Expected ['text/csv', 'text/plain'], got application/octet-stream.
+2026-04-10 12:15:12,543 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/suspicious_test.parquet
+2026-04-10 12:15:12,543 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/suspicious_test.parquet
+2026-04-10 12:15:12,543 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/octet-stream)
+2026-04-10 12:15:12,543 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/suspicious_test.parquet
+2026-04-10 12:15:12,545 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:12,545 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/malicious/suspicious_test.parquet
+2026-04-10 12:15:12,596 - malscanner.core - [ERROR] - YARA Deep Inspection FAILED: YARA Match: SUSP_shellpop_Bash
+2026-04-10 12:15:12,596 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/suspicious_test.pdf
+2026-04-10 12:15:12,597 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/suspicious_test.pdf
+2026-04-10 12:15:12,597 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/pdf)
+2026-04-10 12:15:12,597 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/suspicious_test.pdf
+2026-04-10 12:15:12,597 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:12,598 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/malicious/suspicious_test.pdf
+2026-04-10 12:15:12,643 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:12,643 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.pdf) for tests/payloads/malicious/suspicious_test.pdf
+2026-04-10 12:15:12,702 - malscanner.core - [ERROR] - PDF Heuristics FAILED: Malicious PDF Tag Found: /JS
+2026-04-10 12:15:12,702 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/virus_eicar.txt
+2026-04-10 12:15:12,702 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/virus_eicar.txt
+2026-04-10 12:15:12,702 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/plain)
+2026-04-10 12:15:12,702 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/virus_eicar.txt
+2026-04-10 12:15:12,704 - malscanner.core - [ERROR] - Virus scan FAILED: Malware Detected: Eicar-Test-Signature
+2026-04-10 12:15:12,704 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/xss_markdown.md
+2026-04-10 12:15:12,704 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/xss_markdown.md
+2026-04-10 12:15:12,705 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/html)
+2026-04-10 12:15:12,705 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/xss_markdown.md
+2026-04-10 12:15:12,706 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:15:12,706 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/malicious/xss_markdown.md
+2026-04-10 12:15:12,751 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:15:12,751 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.md) for tests/payloads/malicious/xss_markdown.md
+2026-04-10 12:15:12,751 - malscanner.core - [WARNING] - Text sanitization failed for tests/payloads/malicious/xss_markdown.md: XSS or executable HTML tags detected in Markdown/Text.
+2026-04-10 12:38:59,149 - src.scanners.yara_scanner - [INFO] - YARA Scanner initialized with 727 rule sets.
+2026-04-10 12:38:59,151 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:38:59,151 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:38:59,153 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/pdf)
+2026-04-10 12:38:59,153 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:38:59,155 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:38:59,155 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:38:59,206 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:38:59,207 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.pdf) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:38:59,296 - malscanner.core - [ERROR] - PDF Heuristics FAILED: Malicious PDF Tag Found: /OpenAction
+2026-04-10 12:41:07,354 - src.scanners.yara_scanner - [INFO] - YARA Scanner initialized with 727 rule sets.
+2026-04-10 12:41:07,355 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/archive_5.zst
+2026-04-10 12:41:07,355 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:41:07,359 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/zstd)
+2026-04-10 12:41:07,359 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:41:07,362 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:41:07,363 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:41:07,413 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:41:07,413 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.zst) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:41:07,414 - malscanner.core - [INFO] - File tests/payloads/safe/archive_5.zst safely passed all checks.
+2026-04-10 12:41:07,414 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/data_1.csv
+2026-04-10 12:41:07,414 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/data_1.csv
+2026-04-10 12:41:07,414 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/csv)
+2026-04-10 12:41:07,414 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/data_1.csv
+2026-04-10 12:41:07,418 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:41:07,418 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/data_1.csv
+2026-04-10 12:41:07,468 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:41:07,469 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.csv) for tests/payloads/safe/data_1.csv
+2026-04-10 12:41:07,469 - malscanner.core - [INFO] - File tests/payloads/safe/data_1.csv safely passed all checks.
+2026-04-10 12:41:07,469 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/data_2.json
+2026-04-10 12:41:07,469 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/data_2.json
+2026-04-10 12:41:07,469 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/json)
+2026-04-10 12:41:07,469 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/data_2.json
+2026-04-10 12:41:07,473 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:41:07,473 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/data_2.json
+2026-04-10 12:41:07,523 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:41:07,524 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.json) for tests/payloads/safe/data_2.json
+2026-04-10 12:41:07,524 - malscanner.core - [INFO] - File tests/payloads/safe/data_2.json safely passed all checks.
+2026-04-10 12:41:07,524 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/data_3.jsonl
+2026-04-10 12:41:07,524 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:41:07,524 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/x-ndjson)
+2026-04-10 12:41:07,524 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:41:07,527 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:41:07,527 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:41:07,577 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:41:07,577 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.jsonl) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:41:07,577 - malscanner.core - [INFO] - File tests/payloads/safe/data_3.jsonl safely passed all checks.
+2026-04-10 12:41:07,577 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/document_4.md
+2026-04-10 12:41:07,578 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/document_4.md
+2026-04-10 12:41:07,583 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/plain)
+2026-04-10 12:41:07,583 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/document_4.md
+2026-04-10 12:41:07,589 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:41:07,589 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/document_4.md
+2026-04-10 12:41:07,635 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:41:07,635 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.md) for tests/payloads/safe/document_4.md
+2026-04-10 12:41:07,643 - malscanner.core - [INFO] - File tests/payloads/safe/document_4.md safely passed all checks.
+2026-04-10 12:41:07,643 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/document_6.pdf
+2026-04-10 12:41:07,643 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:41:07,644 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/pdf)
+2026-04-10 12:41:07,644 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:41:07,644 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:41:07,644 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:41:07,692 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:41:07,693 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.pdf) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:41:07,760 - malscanner.core - [INFO] - File tests/payloads/safe/document_6.pdf safely passed all checks.
+2026-04-10 12:43:39,822 - src.scanners.yara_scanner - [INFO] - YARA Scanner initialized with 727 rule sets.
+2026-04-10 12:43:39,823 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/archive_5.zst
+2026-04-10 12:43:39,823 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:43:39,823 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/zstd)
+2026-04-10 12:43:39,823 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:43:39,826 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:43:39,827 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:43:39,893 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:43:39,893 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.zst) for tests/payloads/safe/archive_5.zst
+2026-04-10 12:43:39,893 - malscanner.core - [INFO] - File tests/payloads/safe/archive_5.zst safely passed all checks.
+2026-04-10 12:43:39,894 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/data_1.csv
+2026-04-10 12:43:39,894 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/data_1.csv
+2026-04-10 12:43:39,894 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/csv)
+2026-04-10 12:43:39,894 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/data_1.csv
+2026-04-10 12:43:39,898 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:43:39,898 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/data_1.csv
+2026-04-10 12:43:39,954 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:43:39,954 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.csv) for tests/payloads/safe/data_1.csv
+2026-04-10 12:43:39,954 - malscanner.core - [INFO] - File tests/payloads/safe/data_1.csv safely passed all checks.
+2026-04-10 12:43:39,955 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/data_2.json
+2026-04-10 12:43:39,955 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/data_2.json
+2026-04-10 12:43:39,955 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/json)
+2026-04-10 12:43:39,955 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/data_2.json
+2026-04-10 12:43:39,957 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:43:39,957 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/data_2.json
+2026-04-10 12:43:40,009 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:43:40,009 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.json) for tests/payloads/safe/data_2.json
+2026-04-10 12:43:40,009 - malscanner.core - [INFO] - File tests/payloads/safe/data_2.json safely passed all checks.
+2026-04-10 12:43:40,009 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/data_3.jsonl
+2026-04-10 12:43:40,009 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:43:40,009 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/x-ndjson)
+2026-04-10 12:43:40,009 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:43:40,012 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:43:40,012 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:43:40,063 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:43:40,063 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.jsonl) for tests/payloads/safe/data_3.jsonl
+2026-04-10 12:43:40,063 - malscanner.core - [INFO] - File tests/payloads/safe/data_3.jsonl safely passed all checks.
+2026-04-10 12:43:40,063 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/document_4.md
+2026-04-10 12:43:40,063 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/document_4.md
+2026-04-10 12:43:40,066 - malscanner.core - [INFO] - Identity check PASSED (MIME: text/plain)
+2026-04-10 12:43:40,066 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/document_4.md
+2026-04-10 12:43:40,068 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:43:40,068 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/document_4.md
+2026-04-10 12:43:40,117 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:43:40,117 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.md) for tests/payloads/safe/document_4.md
+2026-04-10 12:43:40,124 - malscanner.core - [INFO] - File tests/payloads/safe/document_4.md safely passed all checks.
+2026-04-10 12:43:40,124 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/safe/document_6.pdf
+2026-04-10 12:43:40,124 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:43:40,124 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/pdf)
+2026-04-10 12:43:40,125 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:43:40,125 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:43:40,125 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:43:40,173 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:43:40,173 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.pdf) for tests/payloads/safe/document_6.pdf
+2026-04-10 12:43:40,225 - malscanner.core - [INFO] - File tests/payloads/safe/document_6.pdf safely passed all checks.
+2026-04-10 12:44:29,122 - src.scanners.yara_scanner - [INFO] - YARA Scanner initialized with 727 rule sets.
+2026-04-10 12:44:29,123 - malscanner.core - [INFO] - Starting analysis for: tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:44:29,123 - malscanner.core - [INFO] - [Phase 1/4] Identity Check (Magic/MIME) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:44:29,125 - malscanner.core - [INFO] - Identity check PASSED (MIME: application/pdf)
+2026-04-10 12:44:29,125 - malscanner.core - [INFO] - [Phase 2/4] Virus Scanning (ClamAV) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:44:29,126 - malscanner.core - [INFO] - Virus scan PASSED (No threats found)
+2026-04-10 12:44:29,126 - malscanner.core - [INFO] - [Phase 3/4] Deep Inspection (YARA Rules) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:44:29,195 - malscanner.core - [INFO] - YARA Deep Inspection PASSED
+2026-04-10 12:44:29,195 - malscanner.core - [INFO] - [Phase 4/4] Heuristic Analysis (.pdf) for tests/payloads/malicious/auto_launch.pdf
+2026-04-10 12:44:29,255 - malscanner.core - [ERROR] - PDF Heuristics FAILED: Malicious PDF Tag Found: /OpenAction

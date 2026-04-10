@@ -1,0 +1,16 @@
+{
+    "batch_folder": "tests/payloads/malicious",
+    "malware_found_in_batch": true,
+    "total_files_scanned": 1,
+    "results": [
+        {
+            "filename": "auto_launch.pdf",
+            "full_path": "tests/payloads/malicious/auto_launch.pdf",
+            "size_mb": 0.0,
+            "detected_mime": "application/pdf",
+            "status": "\ud83d\udd34 REJECTED",
+            "reason": "PDF Malicious Content Detected: Malicious PDF Tag Found: /OpenAction",
+            "is_malware": true
+        }
+    ]
+}
